@@ -1,0 +1,15 @@
+#+title: Hello World!
+#+date: <2024-12-20 22:00>
+#+description: An introduction to this new endeavor
+#+filetags: init
+
+* __init__
+One of the first blogs, I ever wrote was on the /ye old/ Blogspot. I have had a pretty rocky road from there. I have tried to write for a sustained period on various platforms, Substack, Medium and write.as. Since then I have had time to think and contemplate, resulting in this simple and small endeavor.
+
+I realized this. I dont need a blog to develop an alternate stream of income. I did not need this to act as a front-facing interface for /potential clientele/. This needed to primarily be a *public repository of knowledge and ideas*. As a legal academic, reading is a large part of what I do, but often fail to retain or make any logical use of the information I consume. This is merely an effort to have a public facing archive of the processing and */thinking/* required to /digest/ what I have read.
+
+So. With what appears to be a firm resolve, I intend to begin this quaint blog called */'Krishna's Scratchpad on the Internet'/*.
+
+Wish me luck.
+
+/Regards/
