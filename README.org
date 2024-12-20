@@ -1,0 +1,3 @@
+#+title: Krishna's Scratchpad on the Internet
+
+This is the code repository of the small website I run @ https://krsnajani.github.com
