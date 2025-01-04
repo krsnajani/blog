@@ -195,8 +195,6 @@ Error message and password prompt
 
 <li>$:/config/AnimationDuration</li>
 
-<li>$:/config/AutoSave</li>
-
 <li>$:/config/EditorTypeMappings/text/vnd.tiddlywiki</li>
 
 <li>$:/config/Navigation/openLinkFromInsideRiver</li>
@@ -361,6 +359,8 @@ Error message and password prompt
 
 <li>GettingStarted</li>
 
+<li>Working out</li>
+
 </ul>
 </p>
 
@@ -401,7 +401,6 @@ Error message and password prompt
 {"title":"$:/build","text":"Built from branch 'tiddlywiki-com' at commit 1a6be5ae09de1289727e9a981560d295cf8f361a of https://github.com/Jermolene/TiddlyWiki5.git at 2020-04-15 15:19:44 UTC\n","commit":"1a6be5ae09de1289727e9a981560d295cf8f361a"},
 {"title":"$:/config/_sq/Stories/story2","type":"text/vnd.tiddlywiki","text":"yes","bag":"default","created":"20170615081040584","modified":"20200504143613685","revision":"0"},
 {"title":"$:/config/AnimationDuration","text":"400","created":"20200418161856892","modified":"20200808143302000"},
-{"created":"20250104093629531","title":"$:/config/AutoSave","text":"no","modified":"20250104093629531"},
 {"title":"$:/config/EditorTypeMappings/text/vnd.tiddlywiki","text":"comptext","created":"20200510024843460","modified":"20200603121638626","tags":"$:/giffmex/stroll $:/giffmex/blinks"},
 {"title":"$:/config/Navigation/openLinkFromInsideRiver","text":"top","created":"20200418141615149","modified":"20200521145817395","tags":"$:/giffmex/stroll"},
 {"title":"$:/config/NewJournal/Title","type":"text/vnd.tiddlywiki","text":"YYYY / 0MM / 0DD / 0hh:0mm:0ss /","bag":"default","created":"20191225174624729","modified":"20200521145811587","revision":"0","tags":"$:/giffmex/stroll"},
@@ -462,15 +461,15 @@ Error message and password prompt
 {"created":"20231222190228432","title":"$:/state/tab--1498284803","text":"$:/core/ui/AdvancedSearch/Filter","modified":"20240318193218378"},
 {"created":"20250104075437677","title":"$:/state/tab--1963855381","text":"$:/themes/tiddlywiki/vanilla/themetweaks","modified":"20250104075451733"},
 {"created":"20250104075403886","title":"$:/state/tab--2112689675","text":"$:/core/ui/ControlPanel/Advanced","modified":"20250104075433069"},
-{"created":"20250104075433989","title":"$:/state/tab-1749438307","text":"$:/core/ui/ControlPanel/Saving","modified":"20250104093625778"},
-{"created":"20250104075454045","title":"$:/state/tab-2065006209","text":"$:/core/ui/ControlPanel/Saving/General","modified":"20250104080047371"},
-{"created":"20231222190319020","title":"$:/state/tab/sidebar--595412856","text":"$:/.giffmex/sidebar/tabs/strollcontrols","modified":"20240318193248537"},
+{"created":"20250104075433989","title":"$:/state/tab-1749438307","text":"$:/core/ui/ControlPanel/Saving","modified":"20250104075452677"},
+{"created":"20250104075454045","title":"$:/state/tab-2065006209","text":"$:/core/ui/ControlPanel/Saving/GitHub","modified":"20250104075502485"},
+{"created":"20231222190319020","title":"$:/state/tab/sidebar--595412856","text":"$:/core/ui/SideBar/Open","modified":"20250104093644084"},
 {"title":"$:/status/IsAnonymous","text":"yes","bag":"default","revision":"1"},
 {"title":"$:/status/IsLoggedIn","text":"yes","bag":"default","revision":"2"},
 {"title":"$:/status/IsReadOnly","text":"no","bag":"default","revision":"1"},
 {"title":"$:/status/RequireReloadDueToPluginChange","text":"no"},
 {"title":"$:/status/UserName","text":"","bag":"default","revision":"1"},
-{"title":"$:/StoryList","created":"20250104075352792","text":"","list":"$:/ControlPanel","modified":"20250104075352792"},
+{"title":"$:/StoryList","text":"","list":"[[Working out]]"},
 {"title":"$:/tags/EditToolbar","text":"","created":"20200519141000553","list":"$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save","modified":"20200521145647980","tags":"$:/giffmex/bigeditarea $:/giffmex/stroll"},
 {"title":"$:/tags/PageControls","type":"text/vnd.tiddlywiki","text":"","bag":"default","created":"20200127183739219","list":"$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/.giffmex/buttons/newnote-datetime $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions","modified":"20200521145814198","revision":"0","tags":"$:/giffmex/stroll"},
 {"title":"$:/tags/ViewTemplate","type":"text/vnd.tiddlywiki","text":"","bag":"default","created":"20200128153730498","list":"$:/.giffmex/ViewTemplate/title $:/core/ui/ViewTemplate/title $:/core/ui/ViewTemplate/unfold $:/core/ui/ViewTemplate/subtitle $:/core/ui/ViewTemplate/tags $:/core/ui/ViewTemplate/classic $:/core/ui/ViewTemplate/body $:/.giffmex/ViewTemplate/viewfullnotes $:/.giffmex/ViewTemplate/refscontext $:/.giffmex/ViewTemplate/refslinks $:/.giffmex/ViewTemplate/refstranscludecollapse","modified":"20200805141521207","revision":"0","tags":"$:/giffmex/stroll"},
@@ -483,7 +482,8 @@ Error message and password prompt
 {"title":"$:/themes/tiddlywiki/vanilla/metrics/storytop","type":"text/vnd.tiddlywiki","text":"0px","bag":"default","created":"20200414145420217","modified":"20200414145441106","revision":"0"},
 {"created":"20200127172539001","text":"fluid-fixed","bag":"default","revision":"0","type":"text/vnd.tiddlywiki","title":"$:/themes/tiddlywiki/vanilla/options/sidebarlayout","tags":"tb","modified":"20220329155339793"},
 {"created":"20200127165334843","title":"$:/view","type":"text/vnd.tiddlywiki","text":"classic","bag":"default","modified":"20231219150124523","revision":"0","tags":"$:/giffmex/stroll"},
-{"created":"20200507132053126","text":"\\define lingo-base() $:/language/ControlPanel/Basics/\nWelcome to ''Stroll'' and the ~TiddlyWiki community! (TiddlyWiki version: \u003C\u003Cversion>>)\n\nIf you didn't come here from the Stroll website, please [[go there first|https://giffmex.org/stroll/stroll.html]] for the tutorial.\n\nBefore you start storing important information in Stroll, it is vital to make sure that you can reliably save changes. See https://tiddlywiki.com/#GettingStarted for details\n\n!! Set up this ~TiddlyWiki\n\n\u003Cdiv class=\"tc-control-panel\">\n\n|\u003C$link to=\"$:/SiteTitle\">\u003C\u003Clingo Title/Prompt>>\u003C/$link> |\u003C$edit-text tiddler=\"$:/SiteTitle\" default=\"\" tag=\"input\"/> |\n|\u003C$link to=\"$:/SiteSubtitle\">\u003C\u003Clingo Subtitle/Prompt>>\u003C/$link> |\u003C$edit-text tiddler=\"$:/SiteSubtitle\" default=\"\" tag=\"input\"/> |\n|\u003C$link to=\"$:/DefaultTiddlers\">\u003C\u003Clingo DefaultTiddlers/Prompt>>\u003C/$link> |\u003C\u003Clingo DefaultTiddlers/TopHint>>\u003Cbr> \u003C$edit tag=\"textarea\" tiddler=\"$:/DefaultTiddlers\"/>\u003Cbr>//\u003C\u003Clingo DefaultTiddlers/BottomHint>>// |\n\u003C/div>\n\nSee the [[control panel|$:/ControlPanel]] for more options.\n","title":"GettingStarted","modified":"20231219151508941"}
+{"created":"20200507132053126","text":"\\define lingo-base() $:/language/ControlPanel/Basics/\nWelcome to ''Stroll'' and the ~TiddlyWiki community! (TiddlyWiki version: \u003C\u003Cversion>>)\n\nIf you didn't come here from the Stroll website, please [[go there first|https://giffmex.org/stroll/stroll.html]] for the tutorial.\n\nBefore you start storing important information in Stroll, it is vital to make sure that you can reliably save changes. See https://tiddlywiki.com/#GettingStarted for details\n\n!! Set up this ~TiddlyWiki\n\n\u003Cdiv class=\"tc-control-panel\">\n\n|\u003C$link to=\"$:/SiteTitle\">\u003C\u003Clingo Title/Prompt>>\u003C/$link> |\u003C$edit-text tiddler=\"$:/SiteTitle\" default=\"\" tag=\"input\"/> |\n|\u003C$link to=\"$:/SiteSubtitle\">\u003C\u003Clingo Subtitle/Prompt>>\u003C/$link> |\u003C$edit-text tiddler=\"$:/SiteSubtitle\" default=\"\" tag=\"input\"/> |\n|\u003C$link to=\"$:/DefaultTiddlers\">\u003C\u003Clingo DefaultTiddlers/Prompt>>\u003C/$link> |\u003C\u003Clingo DefaultTiddlers/TopHint>>\u003Cbr> \u003C$edit tag=\"textarea\" tiddler=\"$:/DefaultTiddlers\"/>\u003Cbr>//\u003C\u003Clingo DefaultTiddlers/BottomHint>>// |\n\u003C/div>\n\nSee the [[control panel|$:/ControlPanel]] for more options.\n","title":"GettingStarted","modified":"20231219151508941"},
+{"created":"20250104093651626","text":"This is a simple text","tags":"","title":"Working out","modified":"20250104093714230","type":"text/html"}
 ]</script><div id="storeArea" style="display:none;"></div>
 <!--~~ Library modules ~~-->
 <div id="libraryModules" style="display:none;">
